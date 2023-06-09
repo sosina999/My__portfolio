@@ -10,19 +10,9 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "fully responsive",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      desc: "With my expertise in HTML, CSS, JavaScript, and React, I can build flexible and adaptable interfaces that can be customized and updated easily.",
       icon: "fas fa-desktop",
     },
-    // {
-    //   name: "clean && beautiful code",
-    //   desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    //   icon: "fas fa-pencil-ruler",
-    // },
-    // {
-    //   name: "App Design & Develop",
-    //   desc: "I specialize in crafting captivating and user-friendly website designs that reflect your brand's identity and cater to your target audience, encompassing layout, navigation, user interface, and engaging content.",
-    //   icon: "fas fa-paint-brush",
-    // },
     {
       name: "Web Hosting",
       desc: "I provide end-to-end web hosting solutions, managing domain names, server space, and ensuring secure and reliable hosting, so your website is easily accessible to users.",

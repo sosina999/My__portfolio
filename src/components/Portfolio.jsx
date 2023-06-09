@@ -28,13 +28,13 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "www.apple-clone.com",
         link: "https://apple-page-using-react-app.netlify.app/iphone",
       },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
+      // socialLinks: {
+      //   facebook: "http://www.facebook.com/",
+      //   twitter: "http://www.twitter.com/",
+      //   google: "http://www.google.com/",
+      //   instagram: "http://www.instagram.com/",
+      //   mail: "mailto:example@gmail.com",
+      // },
       thumbImage: "/images/projects/apple-react.jpeg",
       sliderImages: [
         "images/projects/project-1.jpg",
@@ -46,7 +46,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       title: "Netflix clone",
       projectInfo:
         "This Netflix project combines React hooks, states, and routes, along with Bootstrap and jQuery, to deliver a dynamic and visually stunning user experience.",
-      client: "Ruby Clinton",
+      client: "",
       technologies: "React, HTML5, CSS3, Axios, Java",
       industry: "Intertainment",
       date: "April 16, 2021",
@@ -54,13 +54,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "www.netflix-clone.com",
         link: "https://netflix-clone-f0c27.firebaseapp.com/",
       },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
+     
       thumbImage: "images/projects/netflix.jpeg",
       sliderImages: [
         "images/projects/project-2.jpg",
@@ -71,21 +65,14 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Amazone clone",
       projectInfo:
-        "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-      client: "Ruby Clinton",
+        "",
+      client: "",
       technologies: "React, HTML5, CSS3, PHP, Java",
       industry: "technology",
       date: "July 16, 2019",
       url: {
         name: "www.amazon-clone.com",
         link: "https://clone-10387.web.app/",
-      },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
       },
       thumbImage: "images/projects/amazon.jpeg",
       sliderImages: [
@@ -106,13 +93,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "www.evangadiForum.com",
         link: "https://95d4a41c.evangadi-forum-frontend-67r.pages.dev/login",
       },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
+   
       thumbImage: "images/projects/evangadiForum.png",
       sliderImages: [
         "images/projects/project-1.jpg",
@@ -132,13 +113,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         name: "www.zoom_clone.com",
         link: "https://zoomapp.herokuapp.com/a93c1641-f86f-45a7-94a7-777b180d63ea",
       },
-      socialLinks: {
-        facebook: "http://www.facebook.com/",
-        twitter: "http://www.twitter.com/",
-        google: "http://www.google.com/",
-        instagram: "http://www.instagram.com/",
-        mail: "mailto:example@gmail.com",
-      },
+   
       thumbImage: "images/projects/zoom-node.jpeg",
       sliderImages: [
         "images/projects/project-1.jpg",
@@ -146,39 +121,14 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       ],
       categories: [filters.PHOTOS],
     },
-    // {
-    //   title: "Project Title 6",
-    //   projectInfo:
-    //     "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-    //   client: "Ruby Clinton",
-    //   technologies: "iOS, HTML5, CSS3, PHP, Java",
-    //   industry: "Art & Design",
-    //   date: "July 16, 2019",
-    //   url: {
-    //     name: "www.example.com",
-    //     link: "https://www.example.com",
-    //   },
-    //   socialLinks: {
-    //     facebook: "http://www.facebook.com/",
-    //     twitter: "http://www.twitter.com/",
-    //     google: "http://www.google.com/",
-    //     instagram: "http://www.instagram.com/",
-    //     mail: "mailto:example@gmail.com",
-    //   },
-    //   thumbImage: "images/projects/netflix.jpeg",
-    //   sliderImages: [
-    //     "images/projects/project-1.jpg",
-    //     "images/projects/project-5.jpg",
-    //   ],
-    //   categories: [filters.BRAND],
-    // },
+  
     {
       title: "apple-bootstrap",
       projectInfo:
         "",
-      client: "Ruby Clinton",
+      client: "",
       technologies: "Bootstrap, HTML5, CSS3, Java",
-      industry: "Art & Design",
+      industry: "Technology, Electronics",
       date: "Jan 1, 2020",
       url: {
         name: "www.apple_bootstrap.com",

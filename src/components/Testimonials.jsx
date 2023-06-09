@@ -1,37 +1,31 @@
 import React from "react";
-
 import Slider from "react-slick";
 
 const Testimonials = ({ classicHeader, darkTheme }) => {
   const reviews = [
     {
-      name: "Dennis Jacques",
+      name: "Maria zack",
       // position: "User from USA",
       src: "images/testimonial/client-sm-3.jpg",
       desc: "I am incredibly impressed with the work Sosina did on my website.she's not only delivered a visually appealing design but also ensured that it was user-friendly and responsive across all devices.",
       rating: 5,
     },
     {
-      name: "Jay Shah",
-     
+      name: "Jay Shah",   
       src: "images/testimonial/client-sm-1.jpg",
-      desc: "I am extremely grateful for the exceptional work Sosina did on my e-commerce website. She seamlessly integrated a secure payment gateway, implemented an intuitive user interface, and optimized the site for search engines. Thanks to their expertise, my online sales have skyrocketed!",
-
+      desc: "I highly recommend Sosina for anyone in need of a website.She was able to transform my outdated site into a modern and sleek platform that has significantly improved my online presence.",
       rating: 5,
     },
     {
-      name: "Patrick Cary",
-    
+      name: "Patrick Cary",  
       src: "images/testimonial/client-sm-2.jpg",
       desc: "I am extremely grateful for the exceptional work Sosina did on my e-commerce website. She seamlessly integrated a secure payment gateway, implemented an intuitive user interface, and optimized the site for search engines. Thanks to their expertise, my online sales have skyrocketed!",
       rating: 5,
     },
     {
-      name: "Chris Tom",
-    
+      name: "Chris Tom",   
       src: "images/testimonial/client-sm-4.jpg",
-      desc: "I highly recommend Sosina for anyone in need of a website.She was able to transform my outdated site into a modern and sleek platform that has significantly improved my online presence.",
-
+      desc: "I am extremely grateful for the exceptional work Sosina did on my e-commerce website. She seamlessly integrated a secure payment gateway, implemented an intuitive user interface, and optimized the site for search engines. Thanks to their expertise, my online sales have skyrocketed!",
       rating: 5,
     },
   ];
@@ -61,7 +55,7 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
     >
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
-        <div className="position-relative d-flex text-center mb-5">
+        <div className="position-relative d-flex text-center mb-5 ">
           <h2
             className={
               "text-24  text-uppercase fw-600 w-100 mb-0 " +
@@ -98,7 +92,7 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
                       src={value.src}
                       alt=""
                     />
-                    <p className="ms-3 mb-0">
+                    <p className=" mb-0">
                       <strong
                         className={
                           "d-block fw-600 " +

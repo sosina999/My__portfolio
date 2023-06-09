@@ -7,13 +7,13 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "2011 - 2014",
       title: "Applied Mathematics",
       place: "Wollega University",
-      // desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    
     },
     {
       yearRange: "2022 - 2023",
       title: "Full stack web Development",
       place: "Evangadi Tech bootcamp",
-      // desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+    
     },
     
   ];
@@ -23,13 +23,13 @@ const Resume = ({ classicHeader, darkTheme }) => {
       yearRange: "2015 - 2019",
       title: "Mathematics Teacher",
       place: "Makkobilli",
-      // desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+ 
     },
     {
       yearRange: "2020 - 2023",
       title: "Web Developer",
       place: "Miracle IT LLC",
-      // desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      // desc: "",
     },
     
   ];

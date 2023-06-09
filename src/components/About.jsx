@@ -37,15 +37,11 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               Developer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+            Welcome to my portfolio! I am thrilled to share my journey as a full-stack web developer and the projects I've had the privilege to work on. Throughout my career, I have tackled a wide range of challenges, from designing responsive and intuitive user interfaces to optimizing database performance for lightning-fast applications. I create custom  Websites to help business do better online.
+           
             </p>
             <p className={darkTheme ? "text-white-50" : ""}>
-              Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
+            I'm excited to collaborate on new ventures and leverage my skills to create exceptional digital experiences. Feel free to explore my portfolio and reach out to discuss how we can bring your web development goals to fruition.
             </p>
           </div>
           {/* About me content end */}

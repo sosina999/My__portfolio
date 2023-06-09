@@ -1,6 +1,5 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import videobg from "../videos/home.mp4";
 
 const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
   return (
@@ -15,16 +14,6 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         ></div>
 
         {/* -------------------video background---------------------- */}
-
-        {/* <div className="player hero-bg parallax">
-          <video
-            src={videobg}
-            autoPlay
-            muted
-            loop
-            style={{ width: "100%", height: "100vh", objectFit: "cover" }}
-          ></video>
-        </div> */}
 
         <div className="hero-content section d-flex min-vh-100">
           <div className="container my-auto">
@@ -55,7 +44,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                     handleNavClick("contact");
                   }}
                 >
-                  Hire Me
+                  Contact Me
                 </a>
               </div>
             </div>
